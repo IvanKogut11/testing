@@ -8,7 +8,7 @@ namespace HomeExercises
 	public class NumberValidatorTests
 	{
 		[Test]
-		public void Test()
+		public void Test1()
 		{
 			Assert.Throws<ArgumentException>(() => new NumberValidator(-1, 2, true));
 			Assert.DoesNotThrow(() => new NumberValidator(1, 0, true));
